@@ -1117,13 +1117,13 @@
         "label": "Video"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "title",
         "label": "Title"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "text",
         "label": "Text"
