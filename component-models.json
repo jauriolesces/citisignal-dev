@@ -1117,18 +1117,6 @@
         "label": "Video"
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "label": "Title"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "text",
-        "label": "Text"
-      },
-      {
         "component": "multiselect",
         "name": "classes",
         "value": "",
