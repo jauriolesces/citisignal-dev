@@ -1165,7 +1165,7 @@
         "label": "Video Title"
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "overlayText",
         "label": "Overlay Text"
