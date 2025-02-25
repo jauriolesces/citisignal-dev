@@ -1159,13 +1159,13 @@
         ]
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "videoTitle",
         "label": "Video Title"
       },
       {
-        "component": "aem-content",
+        "component": "text",
         "valueType": "string",
         "name": "overlayText",
         "label": "Overlay Text"
