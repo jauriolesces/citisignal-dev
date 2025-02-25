@@ -1108,6 +1108,71 @@
     ]
   },
   {
+    "id": "hero-video",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "uri",
+        "label": "Video URI"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "teaserPictureUri",
+        "label": "Teaser Picture URI"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Classes",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Auto Play",
+            "children": [
+              {
+                "name": "AutoPlay",
+                "value": "autoplay"
+              }
+            ]
+          },
+          {
+            "name": "Loop",
+            "children": [
+              {
+                "name": "Loop",
+                "value": "loop"
+              }
+            ]
+          },
+          {
+            "name": "Mute",
+            "children": [
+              {
+                "name": "Mute",
+                "value": "muted"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "videoTitle",
+        "label": "Video Title"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "overlayText",
+        "label": "Overlay Text"
+      }
+    ]
+  },  
+  {
     "id": "video",
     "fields": [
       {
